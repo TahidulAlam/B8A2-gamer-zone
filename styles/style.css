@@ -891,6 +891,7 @@ footer{
         padding: 20px;
         margin: auto;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 10px;
         color: white;
         font-size: 10px;
@@ -899,6 +900,7 @@ footer{
         width: 50%;
         margin: auto;
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
         padding: 20px;
@@ -1151,6 +1153,7 @@ main {
 }
 .gamer-carrer-part-1 h1{
     font-size: 20px;
+    margin-bottom: 10px;
 }
 .gamer-carrer-part-1 p{
     font-size: 10px;
