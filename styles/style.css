@@ -66,8 +66,8 @@ nav {
 }
 
 .logo-img img {
-    height: max-content;
-    width: max-content;
+    height: 30px;
+    width: 56px;
 }
 
 .nav-ul{
@@ -86,10 +86,7 @@ nav li a {
     text-decoration: none;
     color: #424242;
 }
-.logo-img img {
-    height: 16px;
-    width: 32px;
-}
+
 .li-button {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
@@ -274,7 +271,7 @@ background-clip: text;
 .style-text-2 {
     text-align: center;
     font-family: Work Sans;
-    font-size: 78px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -651,6 +648,10 @@ footer{
     }
 .li-button {
     padding: 5px;
+}
+.logo-img img {
+    height: 16px;
+    width: 32px;
 }
     .nav-ul{
         flex-direction: column;
