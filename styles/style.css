@@ -571,6 +571,7 @@ td:last-child {
     font-weight: 600;
     line-height: normal;
     padding: 5px 30px 5px 5px;
+    cursor: pointer;
 }
 .gamer-btn img{
     width: fit-content;
@@ -615,8 +616,14 @@ footer{
 .footer-icon-all{
     display: flex;
     gap: 40px;
-    font-size: 35px;
     color: white;
+    cursor: pointer;
+}
+.footer-icon-all li button{
+    border: none;
+    background-color: #0b022300;
+    color: white;
+    font-size: 35px;
 }
 .footer-policy{
     color: rgb(194, 194, 194);
@@ -628,6 +635,8 @@ footer{
     gap: 30px;
     font-size: 13px;
     color: rgb(194, 194, 194);
+    cursor: pointer;
+
 }
 /* responsive media queries */
 /* mobile devices */
