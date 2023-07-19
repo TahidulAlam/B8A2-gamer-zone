@@ -732,8 +732,6 @@ footer{
     .banner-btn-goRouge {
         padding: 7px 10px;
         font-size: 10px;
-
-    
     }
 
     .gamer-videos-all{
@@ -928,10 +926,7 @@ footer{
         padding: 50px;
     }
 
-    nav,
-    .features,
-    .teams-container,
-    .sponsors-img-container {
+    nav{
         flex-direction: column;
     }
 }
