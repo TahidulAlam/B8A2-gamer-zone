@@ -668,6 +668,7 @@ footer{
     }
     .overlay-banner {
         width: 100%;
+        height: max-content;
     }
 
     .content-li {
@@ -922,11 +923,287 @@ footer{
 
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width: 960px) {
-    header {
-        padding: 50px;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 67px;
+        background-color: white;
     }
+    
+    .logo-img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .logo-img img {
+        height: 25px;
+        width: 50px;
+    }
+    
+    .nav-ul{
+        display: flex;
+        align-items: center;
+    }
+    
+    nav li {
+        list-style: none;
+        margin-right: 20px;
+        font-weight: 500;
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+    /* banner styles */
 
-    nav{
-        flex-direction: column;
-    }
+
+
+
+.banner-part-1 {
+    width: 50%;
+    margin: auto;
+    height: 100%;
+}
+
+.overlay-banner {
+    width: 50%;
+    position: absolute;
+
+}
+
+.overlay-banner svg {
+    width: 100%;
+    margin-top: -54%;
+    height: max-content;
+}
+/* .bpart-1-content{
+    align-items: center;
+    justify-content: center;
+} */
+.bpart-1-content h1 {
+    text-align: start;
+    font-size: 24px;
+}
+
+.style-text {
+    font-size: 48px;
+}
+
+.content-li {
+    row-gap: 5px;
+}
+.content-li li {
+    gap: 5px;
+}
+.banner-part-2 {
+    width: 50%;
+}
+
+.banner-btn {
+    margin-top: 10px;
+}
+
+.banner-btn-signIn {
+    padding: 6px 9px;
+    gap: 5px;
+    font-size: 10px;
+}
+
+.banner-btn-goRouge {
+    padding: 6px 9px;
+    font-size: 10px;
+}
+main {
+    max-width: 960px;
+    margin: 70px auto;
+}
+
+/* teams styles */
+
+.gamer-content-all {
+    padding: 10px 65px;
+}
+
+.gamer-content-part-1 {
+    width: 50%;
+}
+
+.gamer-content-part-2 {
+    width: 50%;
+}
+
+.gcp2-all {
+    row-gap: 8px;
+}
+
+.gcp2-text-style{
+    font-size: 20px;
+}
+
+.gcp-img img {
+    width: 100%;
+}
+.gcp2-all p{
+    font-size: 10px;
+}
+.gcp2-all h2{
+    font-size: 14px;
+}
+
+
+
+
+
+.gamer-videos-all {
+    padding: 10px 65px;
+}
+.style-text-2 {
+    font-size: 20px;
+}
+.gamers-videos-all-card {
+    gap: 10px;
+}
+.overlay-img p {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+    line-height: 12px;
+}
+
+.icon-overlay p {
+    font-size: 18px;
+    line-height: 15px;
+}
+.icon-overlay {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+/* gamer bacrad */
+
+
+.gamer-bacard-all-content {
+    margin-top: 50px;
+    padding: 10px 65px;
+}
+
+
+
+.bcard-content-part-1 h1, .bcard-content-part-2 h1 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.bcard-content-part-1 {
+    text-align: end;
+}
+
+.bcard-content-part-2 {
+    text-align: start;
+}
+
+.bcard-content-part-1 p {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.bcard-content-part-2 p {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.bcard-content-part-2 {
+    width: 50%;
+}
+
+.gbc-main-img-section-1, .gbc-main-img-section-2 {
+    width: 75%;
+}
+
+.gbc-side-img-section-1 {
+    left: -55px;
+}
+
+.gbc-side-img-section-2 {
+    right: -55px;
+}
+
+
+
+
+
+
+
+.gamer-carrers {
+    margin-top: 30px;
+}
+
+.gamer-carrer-part-1 {
+    padding: 20px 0 0 25px;
+}
+.gamer-carrer-part-1 h1{
+    font-size: 20px;
+}
+.gamer-carrer-part-1 p{
+    font-size: 10px;
+    line-height: 11px;
+    margin-bottom: 0;
+}
+
+table td {
+    padding: 5px 5px 2px 0;
+    font-size: 10px;
+    line-height: 15px;
+}
+.gamer-carrer-table{
+    margin-top: 15px;
+}
+.gamer-carrer-table p{
+    font-size: 10px;
+    line-height: 20px;
+}
+.gamer-carrer-table button{
+    margin-top: 10px;
+
+}
+.banner-btn-carrer {
+    padding: 10px 15px;
+    border: none;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.gcp-img {
+    width: 100%;
+}
+
+
+
+
+
+
+/* all-gamer-btn */
+.all-gamer-type{
+    padding-top: 50px;
+}
+.all-gamer-btn{
+    row-gap: 10px;
+}
+.gamer-btn{
+    gap: 10px;
+    font-size: 13px;
+    padding: 5px 20px 5px 5px;
+}
+
+
+
+
 }
