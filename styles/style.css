@@ -897,6 +897,13 @@ footer{
         font-size: 15px;
         color: white;
     }
+    .footer-icon-all li button{
+        border: none;
+        background-color: #0b022300;
+        color: white;
+        font-size: 15px;
+
+    }
     .footer-policy{
         font-size: 6px;
     
