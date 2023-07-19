@@ -897,7 +897,7 @@ footer{
         font-size: 15px;
         color: white;
     }
-    .footer-icon-all li button{
+    .footerBtn{
         border: none;
         background-color: #0b022300;
         color: white;
